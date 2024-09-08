@@ -1,4 +1,4 @@
-package org.smallziz.niakhtu_backend;
+package org.smallziz.niakhtu_backend.entities;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
@@ -20,7 +20,6 @@ public class Complainte {
     @Id
     @Column(name = "COMPLAINTE_ID", nullable = false)
     private Long id;
-
     @NotNull
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "PLAIGNANT_ID", nullable = false)

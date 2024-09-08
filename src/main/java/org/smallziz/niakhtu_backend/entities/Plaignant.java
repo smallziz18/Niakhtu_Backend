@@ -1,4 +1,4 @@
-package org.smallziz.niakhtu_backend;
+package org.smallziz.niakhtu_backend.entities;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
