@@ -3,6 +3,7 @@ package org.smallziz.niakhtu_backend.entities;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -11,9 +12,8 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.LinkedHashSet;
 import java.util.Set;
-
-@Getter
-@Setter
+//page1
+@Data
 @Entity
 @Table(name = "complainte")
 public class Complainte {
