@@ -18,7 +18,6 @@ public class TypePlainte {
     @Size(max = 50)
     @Column(name = "TYPE_PLAINTE_CODE", nullable = false, length = 50)
     private String typePlainteCode;
-
     @Size(max = 255)
     @NotNull
     @Column(name = "TYPE_PLAINTE_LIBELLE", nullable = false)
